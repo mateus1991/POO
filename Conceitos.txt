@@ -1,0 +1,33 @@
+Conceitos de Programação Orientada a objetos:
+
+- Classe: é uma descrição que abstrai um conjunto de objetos com características similares. 
+  Mais formalmente, é um conceito que encapsula abstrações de dados e procedimentos que descrevem o conteúdo e o 
+  comportamento de entidades do mundo real, representadas por objetos.
+
+- Objeto: é uma representação de algum elemento do mundo real que aglutina estados e comportamentos. Possui atributos e pode possuir métodos. 
+  Objetos são instâncias das classes e tem uma identidade única.
+  
+- Atributos: São as variáveis da classe e podem ser divididos em atributos de instâcia (determinam o estado em cada objeto) 
+  ou de classe (um estado compartilhado por todos os objetos de uma classe).
+  
+- Métodos: Determinam o comportamento dos objetos da classe, análogo às funcões e procedimentos na programação estruturada, 
+  e são executados ao receber uma mensagem (chamada da função).
+  
+- Herança: é a capacidade de um objeto ser idealizado baseado em outro objeto. Facilitando reutilização de código.
+  Atributos e metodos do objeto Pai podem ser extendidos para o objeto filho. 
+  Ex: objeto caneta tem atributo cor e metodo escrever e pode gerar um objeto filho com novos atributos. 
+  Caneta azul com atributo tampa azul e metodo escrever em azul gera um objeto filho caneta preta com tampa preta e escrever em preto.
+  
+- Hierarquia: define a cadeia de objetos pai-filho no arranjo de dados.
+
+- Polomorfismo: É a capacidade de um objeto, que seja compatível, se passar por outro em determinadas circunstâncias. 
+  O polimorfismo é caracterizado quando duas ou mais classes distintas têm métodos de mesmo nome, de forma que uma função possa 
+  utilizar um objeto de qualquer uma das classes polimórficas, sem necessidade de tratar de forma diferenciada conforme a classe do objeto.
+  Em linguagens de programação não-polimórficas é necessário criar uma enumeração para especifícar qual método da classe deseja-se apontar (switch-case).
+  
+- Encapsulamento: É a capacidade de esconder detalhes da implementação do objeto mostrando apenas os dados acessados publicamente. (public/private)
+  Apenas as funções tem o poder de alterar os atributos privados.
+
+- Abstração: União do encapsulamento e do polimorfismo. Representação de um objeto de forma abstrata obrigatoriamente herdada por outros objetos porem a 
+  implementação deve ser feita nas classes filhas (template ou superclasse). 
+  
